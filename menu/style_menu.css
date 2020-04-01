@@ -56,7 +56,6 @@ html, body {
     color:black;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
-    font-size: 16px;
   }
 
   h1 {
@@ -71,7 +70,7 @@ html, body {
     font-size: 50px;
     margin-top: 0px;
     padding-top: 60px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     text-transform: uppercase;
   }
 
@@ -89,8 +88,11 @@ html, body {
 
   .intro {
     text-align: left;
-    margin: 0px 500px 20px 500px;
+    margin: 0px 400px 20px 450px;
     font-family: Charter, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 150%;
   }
 
   footer {
