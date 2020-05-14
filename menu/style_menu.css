@@ -95,6 +95,11 @@ html, body {
     line-height: 150%;
   }
 
+  .feature_name {
+  text-align: center;
+  border: 1px solid red;
+  }
+
   footer {
     background-color: black;
     color: #fff;
