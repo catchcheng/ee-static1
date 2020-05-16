@@ -20,7 +20,7 @@ html, body {
     font-size: 14px;
     line-height: 30px;
     padding: 0px 70px;
-    margin-bottom: 40px;
+    margin-bottom: 0px;
   }
 
   nav {
@@ -62,28 +62,28 @@ html, body {
     top: 0;
   }
 
-  main h1 {
-    text-align: center;
-    color: black;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600;
-    font-size: 50px;
-    margin-top: 0px;
-    padding-top: 60px;
-    margin-bottom: 0px;
-    text-transform: uppercase;
+  .contact_us {
+    border: 3px red solid;
+    height: 1px;
+    padding:50px;
+    margin-top:0px;
   }
 
+
   main p {
-    /*border: 1px solid red;*/
+    border: 1px solid red;
     text-align: center;
     color: black;
     font-family: 'Arial', sans-serif;
     font-weight: 500;
     font-size: 15px;
-    height: 200px;
-    padding: 150px;
-    margin: 0px 100px;
+    height:150px;
+    padding-left:150px;
+    padding-right:150px;
+    padding-top:0px;
+    /* padding-bottom: -200px; */
+    /* padding: 0px 150px; */
+    margin: 0px 10px;
   }
 
   .intro {
@@ -95,10 +95,10 @@ html, body {
     line-height: 150%;
   }
 
-  .feature_name {
+  /* .feature_name {
   text-align: center;
   border: 1px solid red;
-  }
+  } */
 
   footer {
     background-color: black;
@@ -145,6 +145,7 @@ html, body {
   }
 
   .jumbotron {
+    /* border: 3px solid red; */
     padding-top: 0px;
     display: block;
     margin-left: auto;
@@ -170,3 +171,147 @@ html, body {
   a{
     color: black;
   }
+
+  .feature1_photo {
+    width:30%;
+  }
+  .feature2_photo {
+    width: 27%;
+  }
+  .feature3_photo {
+    width: 27%;
+  }
+
+  .container {
+    border: 3px solid red;
+    max-width: 940px;
+    height:800px;
+    margin: 0 200px;
+    padding: 0 10px;
+    text-align: center;
+  }
+
+  .container h1 {
+    padding: 200px 0px 200px 0px;
+}
+
+
+  .supporting {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .supporting .col {
+    display: inline;
+
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+  }
+  .supporting .col {
+    width: 100%;
+  }
+  .supporting img {
+
+    left: 0;
+    position: left;
+    box-align: left;
+    /* float: right; */
+    height: 200px;
+  }
+  
+  .supporting h2 {
+    color: #000;
+    font-weight: 600;
+    font-size: 23px;
+    text-transform: uppercase;
+  }
+  
+  .supporting p {
+
+    text-align: left;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0px;
+    padding: 0 0px;
+    margin-bottom: 20px;
+  }
+
+  .supporting a {
+    background-color: white;
+    color: #333333;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 1.3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #333333; 
+  }
+
+  .feature1_name
+ {  
+    float: left;
+    text-align: left;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.feature1_name h2 {
+    padding: 40px 0px 0px 0px;
+}
+
+.feature1_name img {
+    margin: 0px;
+    border: 0px;
+    top: 0px;
+    float: left;
+}
+
+.feature2_name
+{  
+   float: left;
+   text-align: left;
+   color: #000;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 20px;
+}
+
+.feature2_name h2 {
+   padding: 40px 0px 0px 0px;
+}
+
+.feature2_name img {
+   margin: 0px;
+   border: 0px;
+   top: 0px;
+   float: left;
+}
+
+.feature3_name
+{  
+   float: left;
+   margin-bottom: 0px;
+   text-align: left;
+   color: #000;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 20px;
+}
+
+.feature3_name h2 {
+   padding: 40px 0px 0px 0px;
+}
+
+.feature3_name img {
+   margin: 0px;
+   border: 0px;
+   top: 0px;
+   float: left;
+}
