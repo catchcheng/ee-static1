@@ -58,12 +58,9 @@ html, body {
     font-weight: 600;
   }
 
-  h1 {
-    top: 0;
-  }
 
   .contact_us {
-    border: 3px red solid;
+    /*border: 3px red solid;*/
     height: 1px;
     padding:50px;
     margin-top:0px;
@@ -71,7 +68,7 @@ html, body {
 
 
   main p {
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     text-align: center;
     color: black;
     font-family: 'Arial', sans-serif;
@@ -95,10 +92,6 @@ html, body {
     line-height: 150%;
   }
 
-  /* .feature_name {
-  text-align: center;
-  border: 1px solid red;
-  } */
 
   footer {
     background-color: black;
@@ -145,7 +138,7 @@ html, body {
   }
 
   .jumbotron {
-    /* border: 3px solid red; */
+    /*border: 3px solid red;*/
     padding-top: 0px;
     display: block;
     margin-left: auto;
@@ -168,12 +161,12 @@ html, body {
 
   }
 
-  a{
+  a {
     color: black;
   }
 
   .feature1_photo {
-    width:30%;
+    width:27%;
   }
   .feature2_photo {
     width: 27%;
@@ -181,17 +174,22 @@ html, body {
   .feature3_photo {
     width: 27%;
   }
+  .feature4_photo {
+    width: 27%;
+  }
+  .feature5_photo {
+    width: 27%;
+  }
 
   .container {
-    border: 3px solid red;
     max-width: 940px;
-    height:800px;
+    height:1300px;
     margin: 0 200px;
     padding: 0 10px;
     text-align: center;
   }
 
-  .container h1 {
+  .container h1{
     padding: 200px 0px 200px 0px;
 }
 
@@ -201,15 +199,6 @@ html, body {
     padding-bottom: 0px;
   }
 
-  .supporting .col {
-    display: inline;
-
-    font-family: 'Raleway', sans-serif;
-    text-align: left;
-  }
-  .supporting .col {
-    width: 100%;
-  }
   .supporting img {
 
     left: 0;
@@ -220,98 +209,118 @@ html, body {
   }
   
   .supporting h2 {
+    /*border: 3px solid green;*/
     color: #000;
+    text-align: left;
     font-weight: 600;
     font-size: 23px;
     text-transform: uppercase;
+    margin: 0px 0px 20px 280px;
+    padding: 0px;
   }
   
-  .supporting p {
-
+  .detalis {
+    /*border: 3px solid red;*/
     text-align: left;
     color: #000;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
-    margin: 0px;
+    margin: 0px 0px 20px 280px;
     padding: 0 0px;
-    margin-bottom: 20px;
+    /*margin-bottom: 20px;*/
   }
 
-  .supporting a {
-    background-color: white;
-    color: #333333;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600;
-    font-size: 12px;
-    letter-spacing: 1.3px;
-    text-decoration: none;
-    text-transform: uppercase;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 2px solid #333333; 
-  }
-
-  .feature1_name
- {  
+  .feature1_name {
+    /*border: 3px solid red;*/
     float: left;
     text-align: left;
     color: #000;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
-}
-
-.feature1_name h2 {
-    padding: 40px 0px 0px 0px;
 }
 
 .feature1_name img {
-    margin: 0px;
+    margin: 0px 0px 10px 0px;
     border: 0px;
     top: 0px;
     float: left;
+    width: 270px;
+    height: 200px;
 }
 
-.feature2_name
-{  
+.feature2_name {
    float: left;
    text-align: left;
    color: #000;
    font-weight: 400;
    font-size: 14px;
    line-height: 20px;
-}
-
-.feature2_name h2 {
-   padding: 40px 0px 0px 0px;
 }
 
 .feature2_name img {
-   margin: 0px;
+   margin: 0px 0px 10px 0px;
    border: 0px;
    top: 0px;
    float: left;
+   width: 270px;
+   height: 200px;
 }
 
-.feature3_name
-{  
+.feature3_name {
    float: left;
-   margin-bottom: 0px;
    text-align: left;
    color: #000;
    font-weight: 400;
    font-size: 14px;
    line-height: 20px;
-}
-
-.feature3_name h2 {
-   padding: 40px 0px 0px 0px;
+   margin-right: 0px;
 }
 
 .feature3_name img {
-   margin: 0px;
+   margin: 0px 0px 10px 0px;
    border: 0px;
    top: 0px;
    float: left;
+   width: 270px;
+   height: 200px;
+}
+
+.feature4_name {
+   float: left;
+   text-align: left;
+   color: #000;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 20px;
+   margin-right: 0px;
+}
+
+.feature4_name img {
+   margin: 0px 0px 10px 0px;
+   border: 0px;
+   top: 0px;
+   float: left;
+   width: 270px;
+   height: auto;
+}
+
+.feature5_name {
+   float: left;
+   text-align: left;
+   color: #000;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 20px;
+   margin-right: 0px;
+}
+
+.feature5_name img {
+   margin: 0px 0px 10px 0px;
+   border: 0px;
+   top: 0px;
+   float: left;
+   width: 270px;
+   height: 200px;
 }
