@@ -114,6 +114,18 @@ html, body {
     width: auto;
   }
 
+.container p {
+    text-align: left;
+    margin: 0px 10px 50px 150px;
+}
+
+.container h2 {
+    text-align: left;
+    margin: 30px 0px 0px 150px;
+}
+
+
+
 
   .visit {
     font-family: 'Raleway', sans-serif;
@@ -141,78 +153,10 @@ html, body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
-}
-
-.jumbotron p {
-  /* float: left; */
-  margin-top: 50px;
-  /* border: 1px red solid; */
-  text-indent: 20px;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 20px;
-  padding: 0px 70px;
-  margin-bottom: 40px;
-}
-
-  
-  .btn-main {
-    background-color: rgba(0, 0, 0,0.8);
-    color: #fff;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600;
-    font-size: 18px;
-    letter-spacing: 1.3px;
-    padding: 16px 40px;
-    text-decoration: none;
-    text-transform: uppercase;
-  }
-  
-  .btn-default {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600;
-    font-size: 10px;
-    letter-spacing: 1.3px;
-    padding: 10px 20px;
-    text-decoration: none;
-    text-transform: uppercase;  
-    margin-bottom: 20px;      
-  }
-  
-  .supporting {
-    padding-top: 80px;
-    padding-bottom: 100px;
+    width: 100%;
+    /*height: 200px;*/
   }
 
-  .gallery {
-    max-width: 940px;
-    margin: 0 auto;
-    padding: 0 10px;
-    text-align: center;
-    padding-top: 80px;
-    padding-bottom: 100px;
-    max-width: 940px;
-    margin: 0 auto;
-    padding: 0 10px;
-    text-align: center;
-    display: grid;
-    grid-gap: 0px 100px;
-    grid-template-areas: "f deli j";
-    grid-template-rows: 500px;
-  }
-  .f {
-    position: relative;
-  }
-  .deli {
-
-  }
-  .j {
-
-  }
-  
-  
   .supporting .f,
   .supporting .deli,
   .supporting .j {
