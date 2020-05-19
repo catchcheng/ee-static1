@@ -13,14 +13,13 @@ html, body {
 
 .main {
     /* float: left; */
-    margin-top: 0px;
     /*border: 1px red solid;*/
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 30px;
     padding: 0px 70px;
-    margin-bottom: 0px;
+    margin: 0px 90px 50px 90px;
   }
 
   nav {
@@ -54,16 +53,19 @@ html, body {
     width: 80px;
     padding-top:14px;
     color:black;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-weight: 600;
   }
 
 
   .contact_us {
     /*border: 3px red solid;*/
+    font-family: 'Nanum Pen Script', cursive;
+    font-size:40px;
     height: 1px;
     padding:50px;
     margin-top:0px;
+    margin-bottom: 10px;
   }
 
 
@@ -71,7 +73,7 @@ html, body {
     /*border: 1px solid red;*/
     text-align: center;
     color: black;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-weight: 500;
     font-size: 15px;
     height:150px;
@@ -85,13 +87,47 @@ html, body {
 
   .intro {
     text-align: left;
-    margin: 0px 400px 20px 450px;
-    font-family: Charter, sans-serif;
+    margin: 50px 100px 50px 190px;
     font-size: 20px;
     font-weight: 600;
     line-height: 150%;
   }
 
+  .intro li {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+  }
+
+  .intro_grid {
+    display: grid;
+    grid-template-areas: "a b";
+  }
+
+  .intro_a {
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 20px;
+    padding-left: 0px;
+  }
+
+  .intro_b {
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 20px;
+    padding-left: 12px;
+  }
+
+  li {
+    font-family: 'Quicksand', sans-serif;
+  }
+
+.featured_menu {
+  text-align:center;
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 45px;
+  padding-bottom: 20px;
+  padding-top: 0px;
+}
 
   footer {
     background-color: black;
@@ -100,7 +136,7 @@ html, body {
   }
 
   footer p {
-    font-family: Arial, sans-serif;
+    font-family: 'Quicksand', sans-serif;
     letter-spacing: 1px;
     line-height: 20px;
     text-transform: uppercase;
@@ -157,7 +193,7 @@ html, body {
 
 
   p {
-    font-family: Arial;
+    font-family: 'Quicksand', sans-serif;
 
   }
 
@@ -183,14 +219,19 @@ html, body {
 
   .container {
     max-width: 940px;
-    height:1300px;
+    height: 1450px;
     margin: 0 200px;
     padding: 0 10px;
-    text-align: center;
+    text-align: left;
   }
 
   .container h1{
     padding: 200px 0px 200px 0px;
+}
+
+  .container h2 {
+    font-family: 'Raleway', sans-serif;
+
 }
 
 
@@ -219,12 +260,14 @@ html, body {
     padding: 0px;
   }
   
-  .detalis {
+  .details {
     /*border: 3px solid red;*/
+    width: 600px;
     text-align: left;
+    font-family: 'Quicksand', sans-serif;
     color: #000;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 20px;
     margin: 0px 0px 20px 280px;
     padding: 0 0px;
@@ -242,12 +285,12 @@ html, body {
 }
 
 .feature1_name img {
-    margin: 0px 0px 10px 0px;
+    margin: 0px 20px 10px 0px;
     border: 0px;
     top: 0px;
     float: left;
     width: 270px;
-    height: 200px;
+    height: auto;
 }
 
 .feature2_name {
@@ -260,12 +303,12 @@ html, body {
 }
 
 .feature2_name img {
-   margin: 0px 0px 10px 0px;
+   margin: 0px 20px 10px 0px;
    border: 0px;
    top: 0px;
    float: left;
    width: 270px;
-   height: 200px;
+   height: auto;
 }
 
 .feature3_name {
@@ -279,12 +322,12 @@ html, body {
 }
 
 .feature3_name img {
-   margin: 0px 0px 10px 0px;
+   margin: 0px 20px 10px 0px;
    border: 0px;
    top: 0px;
    float: left;
    width: 270px;
-   height: 200px;
+   height: auto;
 }
 
 .feature4_name {
@@ -298,7 +341,7 @@ html, body {
 }
 
 .feature4_name img {
-   margin: 0px 0px 10px 0px;
+   margin: 0px 20px 10px 0px;
    border: 0px;
    top: 0px;
    float: left;
@@ -317,10 +360,10 @@ html, body {
 }
 
 .feature5_name img {
-   margin: 0px 0px 10px 0px;
+   margin: 0px 20px 10px 0px;
    border: 0px;
    top: 0px;
    float: left;
    width: 270px;
-   height: 200px;
+   height: auto;
 }
