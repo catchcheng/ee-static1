@@ -216,10 +216,13 @@ html, body {
   .feature5_photo {
     width: 27%;
   }
+  .feature6_photo {
+    width: 27%;
+  }
 
   .container {
     max-width: 940px;
-    height: 1450px;
+    height: 1850px;
     margin: 0 200px;
     padding: 0 10px;
     text-align: left;
@@ -262,16 +265,29 @@ html, body {
   
   .details {
     /*border: 3px solid red;*/
+    width: 1000px;
+    text-align: left;
+    font-family: 'Quicksand', sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    margin: -10px 0px 0px 280px;
+    padding: 0 0px;
+    /*margin-bottom: 20px;*/
+  }
+
+  .feature_list {
+    /*border: 3px solid green;*/
     width: 600px;
     text-align: left;
     font-family: 'Quicksand', sans-serif;
     color: #000;
     font-weight: 400;
     font-size: 18px;
-    line-height: 20px;
-    margin: 0px 0px 20px 280px;
+    line-height: 29px;
+    margin: 0px 0px 0px 30px;
     padding: 0 0px;
-    /*margin-bottom: 20px;*/
   }
 
   .feature1_name {
@@ -285,7 +301,7 @@ html, body {
 }
 
 .feature1_name img {
-    margin: 0px 20px 10px 0px;
+    margin: 0px 20px 40px 0px;
     border: 0px;
     top: 0px;
     float: left;
@@ -303,7 +319,7 @@ html, body {
 }
 
 .feature2_name img {
-   margin: 0px 20px 10px 0px;
+   margin: 0px 20px 40px 0px;
    border: 0px;
    top: 0px;
    float: left;
@@ -322,7 +338,7 @@ html, body {
 }
 
 .feature3_name img {
-   margin: 0px 20px 10px 0px;
+   margin: 0px 20px 40px 0px;
    border: 0px;
    top: 0px;
    float: left;
@@ -341,7 +357,7 @@ html, body {
 }
 
 .feature4_name img {
-   margin: 0px 20px 10px 0px;
+   margin: 0px 20px 40px 0px;
    border: 0px;
    top: 0px;
    float: left;
@@ -360,7 +376,26 @@ html, body {
 }
 
 .feature5_name img {
-   margin: 0px 20px 10px 0px;
+   margin: 0px 20px 40px 0px;
+   border: 0px;
+   top: 0px;
+   float: left;
+   width: 270px;
+   height: auto;
+}
+
+.feature6_name {
+   float: left;
+   text-align: left;
+   color: #000;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 20px;
+   margin-right: 0px;
+}
+
+.feature6_name img {
+   margin: 0px 20px 40px 0px;
    border: 0px;
    top: 0px;
    float: left;

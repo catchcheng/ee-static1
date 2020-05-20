@@ -142,14 +142,14 @@ html, body {
 
 .jumbotron p {
   /* float: left; */
-  margin-top: 50px;
+  margin-top: 30px;
   /*border: 1px red solid;*/
   /*text-indent: 20px;*/
   /* font-family: 'Arial', sans-serif; */
   font-family: 'Quicksand', sans-serif;
   font-weight: 500;
   font-size: 18px;
-  line-height: 20px;
+  line-height: 28px;
   padding: 0px 50px;
   margin-bottom: 60px;
   width: 850px;
